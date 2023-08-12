@@ -27,6 +27,11 @@ function LoginForm() {
 
   return (
     <Form onSubmit={handleSubmit}>
+      <p style={{ fontSize: "10px", textAlign: "center", color: "#777" }}>
+        You could login with email:
+        <span style={{ color: "green" }}>test@test.com</span> and password:{" "}
+        <span style={{ color: "green" }}>testtest</span>
+      </p>
       <FormRowVertical label="Email address">
         <Input
           type="email"
